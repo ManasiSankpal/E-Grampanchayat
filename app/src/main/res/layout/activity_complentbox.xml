@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Complentbox">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="COMPLAINT BOX"
+        app:titleMarginStart="110dp" />
+
+
+    <EditText
+        android:id="@+id/editText17"
+        android:layout_width="255dp"
+        android:layout_height="45dp"
+        android:layout_x="54dp"
+        android:layout_y="91dp"
+        android:ems="10"
+        android:background="@drawable/box"
+        android:inputType="textPersonName"
+        android:hint="Id" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="255dp"
+        android:layout_height="45dp"
+        android:layout_x="54dp"
+        android:layout_y="152dp"
+        android:background="@drawable/box"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="255dp"
+        android:layout_height="45dp"
+        android:layout_x="54dp"
+        android:layout_y="215dp"
+        android:background="@drawable/box"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="255dp"
+        android:layout_height="45dp"
+        android:layout_x="54dp"
+        android:layout_y="275dp"
+        android:ems="10"
+        android:hint="mobile No"
+        android:background="@drawable/box"
+        android:inputType="textPersonName"
+        />
+
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="255dp"
+        android:layout_height="177dp"
+        android:layout_x="54dp"
+        android:layout_y="334dp"
+        android:background="@drawable/box"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:hint="complaint"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="148dp"
+        android:layout_height="60dp"
+        android:layout_x="104dp"
+        android:layout_y="528dp"
+        android:text="Submit" />
+
+</AbsoluteLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feedback">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="Feedback"
+
+        app:titleMarginStart="150dp" />
+
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName14"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_x="64dp"
+        android:layout_y="86dp"
+        android:ems="10"
+        android:background="@drawable/box"
+        android:textColor="@color/black"
+        android:inputType="textPersonName"
+        android:hint="Id" />
+
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_x="64dp"
+        android:layout_y="144dp"
+        android:ems="10"
+        android:hint="Activity Name"
+        android:background="@drawable/box"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName9"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_x="64dp"
+        android:layout_y="226dp"
+        android:ems="10"
+        android:hint="Adress"
+        android:background="@drawable/box"
+        android:inputType="textPersonName" />
+
+
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="239dp"
+        android:layout_height="97dp"
+        android:layout_x="64dp"
+        android:layout_y="493dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Statement"
+        android:background="@drawable/box"
+        android:inputType="textMultiLine" />
+
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="98dp"
+        android:layout_height="33dp"
+        android:layout_x="67dp"
+        android:layout_y="290dp"
+        android:hint="Status"
+        android:background="@drawable/box"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="120dp"
+        android:layout_y="326dp">
+
+
+        <RadioButton
+            android:id="@+id/solved_problems1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="449dp"
+            android:text="Ongoing"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+        <RadioButton
+            android:id="@+id/solved_problems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="395dp"
+            android:text="Not Compeleted"
+
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+        <RadioButton
+            android:id="@+id/In_Process_Problems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="10dp"
+            android:layout_y="341dp"
+            android:text="Completed"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="136dp"
+        android:layout_height="66dp"
+        android:layout_x="130dp"
+        android:layout_y="602dp"
+        android:text="Send" />
+
+</AbsoluteLayout>

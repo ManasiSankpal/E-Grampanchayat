@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".scheme">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="SCHEMES"
+
+        app:titleMarginStart="140dp" />
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="266dp"
+        android:layout_x="0dp"
+        android:layout_y="91dp"
+        android:orientation="vertical"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:textSize="15dp"
+            android:onClick="s1"
+            android:layout_marginLeft="30dp"
+            android:textColor="#008080"
+            android:textStyle="bold"
+            android:text="1. Self-Training Institutions (R-SETI) Regarding All Operations" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:textSize="15dp"
+            android:onClick="s2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#008080"
+            android:textStyle="bold"
+            android:text="2. Deen Dayal Upadhyay Kaushalya Vikas Yojana" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="15dp"
+            android:onClick="s3"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#008080"
+            android:textStyle="bold"
+            android:text="3. Prime minister housing scheme- Gramin" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:textSize="15dp"
+            android:onClick="s4"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#008080"
+            android:textStyle="bold"
+            android:text="4. Mahila Kisan Empowerment Program" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:textSize="15dp"
+            android:onClick="s5"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#008080"
+            android:textStyle="bold"
+            android:text="5. National Gram Swaraj Yojana" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:textSize="15dp"
+            android:onClick="s6"
+            android:textColor="#008080"
+            android:textStyle="bold"
+            android:text="Shyama Prasad Mukherji Rurban Mission" />
+    </LinearLayout>
+</AbsoluteLayout>

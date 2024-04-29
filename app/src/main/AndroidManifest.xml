@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.capstone1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="Grampanchayat Aplication"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+
+        android:theme="@style/Theme.Capstone1">
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".viewAction"
+            android:exported="false" />
+        <activity
+            android:name=".scheme"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".ucomp"
+            android:exported="false" />
+        <activity
+            android:name=".Replycom"
+            android:exported="false" />
+        <activity
+            android:name=".Complentbox"
+            android:exported="false" />
+        <activity
+            android:name=".view"
+            android:exported="false" />
+        <activity
+            android:name=".Achieve"
+            android:exported="false" />
+        <activity
+            android:name=".user"
+            android:exported="true" />
+        <activity
+            android:name=".registration"
+            android:exported="true" />
+        <activity
+            android:name=".forgotpass"
+            android:exported="true" />
+        <activity
+            android:name=".home"
+            android:exported="true" />
+        <activity
+            android:name=".Decision"
+            android:exported="true" />
+        <activity
+            android:name=".DOC_APP"
+            android:exported="true" />
+        <activity
+            android:name=".Feedback"
+            android:exported="true" />
+        <activity
+            android:name=".Progress_report"
+            android:exported="true" />
+        <activity
+            android:name=".splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

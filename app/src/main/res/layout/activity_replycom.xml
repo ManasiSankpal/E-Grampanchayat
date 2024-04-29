@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Replycom">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="Feedback"
+        app:titleMarginStart="150dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="201dp"
+        android:layout_height="62dp"
+        android:layout_x="97dp"
+        android:layout_y="250dp"
+
+        android:text="View Complaint"
+        app:rippleColor="#681E75"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="201dp"
+        android:layout_height="62dp"
+        android:layout_x="97dp"
+        android:layout_y="350dp"
+        android:text="Feedback"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+
+</AbsoluteLayout>
